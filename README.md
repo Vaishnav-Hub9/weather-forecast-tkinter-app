@@ -65,6 +65,8 @@ The weather app window will open.
 
 ---
 
+-- Although it's still basic, but i plan on changing them with a better frontend and improving the backend.
+
 ## 👤 Author
 **Tadakamadla Vaishnav**  
 1st Sem Python Project  
