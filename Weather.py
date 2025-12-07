@@ -8,7 +8,7 @@ def get_weather():
         messagebox.showerror("Error", "Please enter a place name!")
         return
     
-    api_key = "b2a901bd19feb08ed465cfa1deca6324"
+    api_key = "ENTER_YOUR_API_KEY_FROM_OPEN_WEATHER_MAP"
     base_url = "https://api.openweathermap.org/data/2.5/weather"
     params = {"q": place, "appid": api_key, "units": "metric"}
 
@@ -61,3 +61,4 @@ result_label = tk.Label(main_frame, text="", font=("Helvetica", 14),
 result_label.pack(pady=20)
 
 window.mainloop()
+
