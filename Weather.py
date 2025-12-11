@@ -9,7 +9,7 @@ def get_weather():
         return
     
     api_key = "ENTER_YOUR_API_KEY_FROM_OPEN_WEATHER_MAP"
-    base_url = "https://api.openweathermap.org/data/2.5/weather"
+    base_url = "ENTER_THE_BASE_URL_OF_OPENWEATHERMAP"
     params = {"q": place, "appid": api_key, "units": "metric"}
 
     try:
@@ -61,4 +61,5 @@ result_label = tk.Label(main_frame, text="", font=("Helvetica", 14),
 result_label.pack(pady=20)
 
 window.mainloop()
+
 
